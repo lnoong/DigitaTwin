@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-07-05T14:05:07.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="kTLP-jEPdak_tXoCBiHw" version="24.1.0" type="device">
+  <diagram name="第 1 页" id="aCF9tQXrK1UffjoMp9TE">
+    <mxGraphModel dx="875" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bj-xvkIRFE9STBg27RWE-1" value="动画系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.125;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj-xvkIRFE9STBg27RWE-2" target="bj-xvkIRFE9STBg27RWE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-8" value="动画参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj-xvkIRFE9STBg27RWE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bj-xvkIRFE9STBg27RWE-2" target="bj-xvkIRFE9STBg27RWE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="403" y="290" />
+              <mxPoint x="403" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-19" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj-xvkIRFE9STBg27RWE-18">
+          <mxGeometry x="0.0733" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-2" value="参数系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bj-xvkIRFE9STBg27RWE-3" target="bj-xvkIRFE9STBg27RWE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-13" value="转为系统参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj-xvkIRFE9STBg27RWE-12">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-3" value="TCP通讯&lt;div&gt;（接收实际设备消息）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bj-xvkIRFE9STBg27RWE-4" target="bj-xvkIRFE9STBg27RWE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-6" value="控制开始、暂停" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj-xvkIRFE9STBg27RWE-5">
+          <mxGeometry x="-0.2276" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-4" value="逻辑控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bj-xvkIRFE9STBg27RWE-1" target="bj-xvkIRFE9STBg27RWE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bj-xvkIRFE9STBg27RWE-16" value="保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bj-xvkIRFE9STBg27RWE-15">
+          <mxGeometry x="-0.0952" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
