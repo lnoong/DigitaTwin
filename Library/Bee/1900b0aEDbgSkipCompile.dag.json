@@ -1,0 +1,304 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"D:/Unity3D/2022.3.17f1c1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Assembly-CSharp-firstpass.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.Common.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.Common.Editor.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.SettingsMenuCreator.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.SettingsMenuCreator.Editor.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.StyleProfileSystem.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.StyleProfileSystem.Editor.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.StyleProfileSystem.UIToolkit.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.UI.Components.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.UI.Components.Editor.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.UI.Components.UIToolkit.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.UI.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\CitrioN.UI.Panels.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.Postprocessing.Runtime.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Unity3D\\2022.3.17f1c1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\Unity3D\\2022.3.17f1c1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"D:\\Unity3D\\2022.3.17f1c1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\ScriptAssemblies\" -s=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"E:\\AllProjects\\UnityHub\\Unity3D\\BatteryLine\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "Library/ScriptAssemblies/CitrioN.Common.dll",
+        "Library/ScriptAssemblies/CitrioN.Common.Editor.dll",
+        "Library/ScriptAssemblies/CitrioN.SettingsMenuCreator.dll",
+        "Library/ScriptAssemblies/CitrioN.SettingsMenuCreator.Editor.dll",
+        "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.dll",
+        "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.Editor.dll",
+        "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.UIToolkit.dll",
+        "Library/ScriptAssemblies/CitrioN.UI.Components.dll",
+        "Library/ScriptAssemblies/CitrioN.UI.Components.Editor.dll",
+        "Library/ScriptAssemblies/CitrioN.UI.Components.UIToolkit.dll",
+        "Library/ScriptAssemblies/CitrioN.UI.dll",
+        "Library/ScriptAssemblies/CitrioN.UI.Panels.dll",
+        "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aEDbgSkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Library/Bee/1900b0aEDbgSkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.Common.Editor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.SettingsMenuCreator.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.SettingsMenuCreator.Editor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.Editor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.StyleProfileSystem.UIToolkit.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.UI.Components.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.UI.Components.Editor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.UI.Components.UIToolkit.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/CitrioN.UI.Panels.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "D:/Unity3D/2022.3.17f1c1/Editor/Data/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aEDbgSkipCompile.dag.json",
+  "PayloadsFile": "E:/AllProjects/UnityHub/Unity3D/BatteryLine/Library/Bee/1900b0aEDbgSkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
